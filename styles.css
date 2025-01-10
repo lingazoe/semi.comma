@@ -5,6 +5,10 @@ body {
 }
 
 .base {
+    
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
     color: #5A3D31;
     text-decoration: none;
 }
