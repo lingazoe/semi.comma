@@ -1,4 +1,4 @@
-const button = document.querySelector('.color-btn');
+const button = document.querySelector('.base-btn');
 
 button.addEventListener('click', function() {
     
