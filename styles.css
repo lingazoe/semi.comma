@@ -4,23 +4,19 @@ body {
     text-align:center;
 }
 
-.base {
+.base-btn {
 
-    position:absolute;
-    font-size:40px;
-    top:50px;
-    left:63vmin;
-    
-    color: #5A3D31;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #FF8575;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.base:hover {
+.base-btn:hover {
 
-    color:#FFE8D6;
-    transition: 0.2s;
-}
-
-.base:hover ~ body {
-
-    background-color: #2B1E1A;
+    background-color: #FF5741;
 }
