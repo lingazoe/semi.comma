@@ -17,6 +17,10 @@ body {
 .base:hover {
 
     color:#FFE8D6;
-    background-color:#2B1E1A;
     transition: 0.2s;
+}
+
+.base:hover ~ body {
+
+    background-color: #2B1E1A;
 }
